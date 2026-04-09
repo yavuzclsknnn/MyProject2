@@ -75,7 +75,7 @@ Stored procedure'leri yükleyin  <br/>
 Connection string'i güncelleyin  <br/>
   <br/>
   <br/>
-<h2>⚙️ Kurulum </h2>  <br/>
+<h2>⚙️ Kurulum </h2> 
 git clone https://github.com/yavuzclsknn/MyProject2.git  <br/>
 Visual Studio ile aç  <br/>
 Startup Project → MyProject2.Mutfak  <br/>
