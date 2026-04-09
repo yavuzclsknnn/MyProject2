@@ -35,10 +35,8 @@ Maintainable codebase  <br/>
 ✔️ Ürün & kategori yönetimi  <br/>
 ✔️ Dinamik UI bileşenleri  <br/>
   <br/> 
-🗄️ Veritabanı  <br/>
-  <br/>
-Proje, SQL Server üzerinde çalışmaktadır.  <br/>
-  <br/>
+🗄️ Veritabanı  <br/> 
+Proje, SQL Server üzerinde çalışmaktadır.  <br/> 
 Kurulum için:  <br/>
   <br/>
 DatabaseScripts/init_database.sql dosyasını çalıştırın  <br/>
