@@ -51,7 +51,7 @@ Connection string'i güncelleyin
 
 
 ⚙️ Kurulum
-git clone https://github.com/kullaniciadi/MyProject2.git
+git clone https://github.com/yavuzclsknn/MyProject2.git
 Visual Studio ile aç
 Startup Project → MyProject2.Mutfak
 SQL bağlantısını ayarla
