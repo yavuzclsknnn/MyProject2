@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/DatabaseScripts/">
+    <File Path="init_database.sql" />
+  </Folder>
   <Folder Name="/Solution Items/">
     <File Path=".gitignore" />
   </Folder>
