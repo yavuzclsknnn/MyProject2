@@ -39,10 +39,10 @@ Bu proje WPF Windwos Masaüstü Uygulması katmanlı mimari ile geliştirilmişt
   <img src="Ekran_Alintisi_3.PNG" width="600"/>
 </p>
 <p align="center">
-  <img src="Ekran_Alintisi_4.PNG" width="600"/>
+  <img src="Ekran_Alintisi_6.PNG" width="600"/>
 </p>
 <p align="center">
-  <img src="Ekran_Alintisi_5.PNG" width="600"/>
+  <img src="Ekran_Alintisi_8.PNG" width="600"/>
 </p>
 
 
