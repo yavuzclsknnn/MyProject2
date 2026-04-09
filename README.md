@@ -50,16 +50,14 @@ Visual Studio ile aç  <br/>
 Startup Project → MyProject2.Mutfak  <br/>
 SQL bağlantısını ayarla  <br/>
 Çalıştır 🚀  <br/>
-  <br/>
-  <br/>
+  <br/> 
 Gerçek dünya senaryosu bazlı geliştirilmiştir  <br/>
 Performans için stored procedure kullanımı  <br/>
 Kurumsal mimariye uygun yapı  <br/>
    <br/>
 ⭐ Katkı  <br/> 
 Projeyi beğendiysen ⭐ vermeyi unutma!  <br/>
-  <br/>
-  <br/>
+  <br/> 
 
 ## 📸 Proje Görselleri  <br/>
 
