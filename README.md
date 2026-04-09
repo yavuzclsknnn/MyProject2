@@ -29,11 +29,14 @@ Bu proje WCF servis mimarisi kullanılarak geliştirilmiştir ve MSSQL Express v
 ## 📸 Proje Görselleri
 
 ### WCF Service Çalışıyor
+<p align="center">
+  <img src="Ekran_Alintisi_8.PNG" width="600"/>
+</p>
 ![Service](Ekran_Alintisi_1.PNG)
-![Service](screenshots/Ekran_Alintisi_2.png)
-![Service](screenshots/Ekran_Alintisi_3.png)
-![Service](screenshots/Ekran_Alintisi_6.png)
-![Service](screenshots/Ekran_Alintisi_8.png)
+![Service](Ekran_Alintisi_2.png)
+![Service](Ekran_Alintisi_3.png)
+![Service](Ekran_Alintisi_6.png)
+![Service](Ekran_Alintisi_8.png)
 
 
 
