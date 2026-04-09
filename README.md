@@ -22,8 +22,6 @@ Uygulama, aktif kullanıcı yönetimi, ürün takibi, ve kategori bazlı veri or
 <li>Stored Procedures </li>
 <li>C# (OOP & Layered Architecture) </li>
 </ul>  
-  <br/>
-
 <h2>🧠 Teknik Detaylar</h2> 
 <ul>
 <li>Katmanlı Mimari (Separation of Concerns)</li>
