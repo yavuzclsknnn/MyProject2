@@ -39,7 +39,6 @@ Uygulama, aktif kullanıcı yönetimi, ürün takibi, ve kategori bazlı veri or
 <li>Dependency separation  </li>
 <li>Maintainable codebase  </li> 
   </ul>
-  <br/>
   <br/> 
 <h2>📊 Logging (Kayıt Sistemi)</h2>
 
