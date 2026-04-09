@@ -51,8 +51,6 @@ Uygulama içerisinde gerçekleşen önemli işlemler ve hatalar,
 <li>Sistem takibi ve hata analizi kolaylaştırılmıştır</li>
 </ul>
 
-
-  
 <h2>🔐 Özellikler </h2> 
 ✔️ Aktif kullanıcı ile oturum yönetimi  <br/>
 ✔️ Stored Procedure tabanlı güvenli veri erişimi  <br/>
@@ -60,8 +58,7 @@ Uygulama içerisinde gerçekleşen önemli işlemler ve hatalar,
 ✔️ Modüler ve genişletilebilir yapı  <br/>
 ✔️ Ürün & kategori yönetimi  <br/>
 ✔️ Dinamik UI bileşenleri  <br/>
-  <br/> 
-  
+
 <h2>🗄️ Veritabanı </h2> 
 Proje, SQL Server üzerinde çalışmaktadır.  <br/> 
 Kurulum için:  
