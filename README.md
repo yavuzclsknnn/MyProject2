@@ -15,16 +15,6 @@ Bu proje, katmanlı mimari yaklaşımıyla geliştirilmiş olup aşağıdaki bil
 Uygulama, aktif kullanıcı yönetimi, ürün takibi, ve kategori bazlı veri organizasyonu gibi işlevleri destekler.
 
 
-🏗️ Mimari Yapı
-MyProject2
-│
-├── MyProject2.Admin        → Yönetim paneli
-├── MyProject2.Common       → Ortak yardımcı sınıflar
-├── MyProject2.Models       → Veri modelleri
-├── MyProject2.Repositories → Veri erişim katmanı
-├── MyProject2.Services     → İş mantığı
-├── MyProject2.Mutfak       → Ana kullanıcı arayüzü
-└── DatabaseScripts         → SQL scriptleri
 
 ⚡ Kullanılan Teknolojiler
 .NET 10 (Windows Desktop)
