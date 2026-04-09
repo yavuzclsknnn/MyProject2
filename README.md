@@ -85,7 +85,7 @@ Projeyi beğendiysen ⭐ vermeyi unutma!  <br/>
 
 ### Windows Masaüstü Projesi Ekran Görüntüleri
 <p align="center">
-  <img src="Ekran_Alintisi_1.PNG" width="600"/>
+  <img src="MyProject2.Admin/Images/Ekran_Alintisi_1.PNG" width="600"/>
 </p>
 <p align="center">
   <img src="Ekran_Alintisi_2.PNG" width="600"/>
