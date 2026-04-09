@@ -21,12 +21,41 @@ SQL Server  <br/>
 Stored Procedures  <br/>
 C# (OOP & Layered Architecture)  <br/>
   <br/>
+
+<h2>🧠 Teknik Detaylar</h2>
+
+<ul>
+<li>Katmanlı Mimari (Separation of Concerns)</li>
+<li>Stored Procedure tabanlı veri erişimi</li>
+<li>Ölçeklenebilir ve sürdürülebilir yapı</li>
+<li>Clean Code ve SOLID prensipleri</li>
+<li>SQL tabanlı loglama sistemi</li>
+</ul>
+
+👉 Bu bölü
+  
 Clean Code  <br/>
 SOLID principles  <br/>
 Dependency separation  <br/>
 Maintainable codebase  <br/>
   <br/>
   <br/> 
+<h2>📊 Logging (Kayıt Sistemi)</h2>
+
+<p>
+Uygulama içerisinde gerçekleşen önemli işlemler ve hatalar, 
+<b>SQL Server üzerinde ayrı bir log tablosunda</b> saklanmaktadır.
+</p>
+
+<ul>
+<li>Kullanıcı işlemleri kayıt altına alınır</li>
+<li>Hata (exception) logları tutulur</li>
+<li>İşlem geçmişi izlenebilir</li>
+<li>Sistem takibi ve hata analizi kolaylaştırılmıştır</li>
+</ul>
+
+
+  
 🔐 Özellikler  <br/>
 ✔️ Aktif kullanıcı ile oturum yönetimi  <br/>
 ✔️ Stored Procedure tabanlı güvenli veri erişimi  <br/>
