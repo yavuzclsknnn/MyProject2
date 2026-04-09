@@ -32,12 +32,12 @@ C# (OOP & Layered Architecture)  <br/>
 <li>SQL tabanlı loglama sistemi</li>
 </ul>
 
-👉 Bu bölü
+<h2>🧼 Clean Code</h2>
   
 Clean Code  <br/>
-SOLID principles  <br/>
-Dependency separation  <br/>
-Maintainable codebase  <br/>
+<li>SOLID principles</li>
+<li>Dependency separation  </li>
+<li>Maintainable codebase  <</li> 
   <br/>
   <br/> 
 <h2>📊 Logging (Kayıt Sistemi)</h2>
