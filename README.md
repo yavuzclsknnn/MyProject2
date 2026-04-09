@@ -1,11 +1,11 @@
 # WCF Service Project
 
 ## Proje Hakkında
-Bu proje WCF servis mimarisi kullanılarak geliştirilmiştir ve MSSQL Express veritabanı ile entegre çalışmaktadır.
+Bu proje WPF Windwos Masaüstü Uygulması katmanlı mimari ile geliştirilmiştir ve MSSQL Express veritabanı ile entegre çalışmaktadır.
 
 ## Kullanılan Teknolojiler
 - C#
-- WCF (Windows Communication Foundation)
+- WPF
 - MSSQL Express
 - ADO.NET
 
@@ -28,18 +28,22 @@ Bu proje WCF servis mimarisi kullanılarak geliştirilmiştir ve MSSQL Express v
 
 ## 📸 Proje Görselleri
 
-### WCF Service Çalışıyor
-<p align="center">
-  <img src="Ekran_Alintisi_8.PNG" width="600"/>
-</p>
+### Windows Masaüstü Projesi Ekran Görüntüleri
 <p align="center">
   <img src="Ekran_Alintisi_1.PNG" width="600"/>
 </p>
-![Service](Ekran_Alintisi_1.PNG)
-![Service](Ekran_Alintisi_2.png)
-![Service](Ekran_Alintisi_3.png)
-![Service](Ekran_Alintisi_6.png)
-![Service](Ekran_Alintisi_8.png)
+<p align="center">
+  <img src="Ekran_Alintisi_2.PNG" width="600"/>
+</p>
+<p align="center">
+  <img src="Ekran_Alintisi_3.PNG" width="600"/>
+</p>
+<p align="center">
+  <img src="Ekran_Alintisi_4.PNG" width="600"/>
+</p>
+<p align="center">
+  <img src="Ekran_Alintisi_5.PNG" width="600"/>
+</p>
 
 
 
