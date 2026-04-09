@@ -39,7 +39,6 @@ Uygulama, aktif kullanıcı yönetimi, ürün takibi, ve kategori bazlı veri or
 <li>Dependency separation  </li>
 <li>Maintainable codebase  </li> 
   </ul>
-  <br/> 
 <h2>📊 Logging (Kayıt Sistemi)</h2>
 
 <p>
@@ -72,8 +71,6 @@ Kurulum için:
 DatabaseScripts/init_database.sql dosyasını çalıştırın  <br/>
 Stored procedure'leri yükleyin  <br/>
 Connection string'i güncelleyin  <br/>
-  <br/>
-  <br/>
 <h2>⚙️ Kurulum </h2> 
 git clone https://github.com/yavuzclsknn/MyProject2.git  <br/>
 Visual Studio ile aç  <br/>
