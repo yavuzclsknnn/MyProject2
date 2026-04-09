@@ -57,7 +57,7 @@ Uygulama içerisinde gerçekleşen önemli işlemler ve hatalar,
 
 
   
-<h2>🔐 Özellikler </h2><br/>
+<h2>🔐 Özellikler </h2> 
 ✔️ Aktif kullanıcı ile oturum yönetimi  <br/>
 ✔️ Stored Procedure tabanlı güvenli veri erişimi  <br/>
 ✔️ Katmanlı mimari (Clean Architecture yaklaşımı)  <br/>
@@ -65,7 +65,8 @@ Uygulama içerisinde gerçekleşen önemli işlemler ve hatalar,
 ✔️ Ürün & kategori yönetimi  <br/>
 ✔️ Dinamik UI bileşenleri  <br/>
   <br/> 
-<h2>🗄️ Veritabanı </h2> <br/> 
+  
+<h2>🗄️ Veritabanı </h2> 
 Proje, SQL Server üzerinde çalışmaktadır.  <br/> 
 Kurulum için:  <br/>
   <br/>
