@@ -6,7 +6,7 @@ Modern bir masaüstü uygulaması olup, .NET 10 (Windows Application) ile geliş
 🧩 Proje Hakkında
 
 Bu proje, katmanlı mimari yaklaşımıyla geliştirilmiş olup aşağıdaki bileşenleri içerir:
-
+<br/>
 🖥️ WPF UI (Presentation Layer) → Kullanıcı arayüzü
 ⚙️ Services Layer → İş mantığı
 🗄️ Repositories Layer → Veri erişimi (Stored Procedures)
