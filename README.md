@@ -2,73 +2,73 @@
 
 ## Proje Hakkında
 Modern bir masaüstü uygulaması olup, .NET 10 (Windows Application) ile geliştirilmiş ve SQL Server Stored Procedures odaklı veri erişim mimarisi kullanmaktadır.
-
-🧩 Proje Hakkında
+  <br/>
+🧩 Proje Hakkında  <br/>
 
 Bu proje, katmanlı mimari yaklaşımıyla geliştirilmiş olup aşağıdaki bileşenleri içerir:
 <br/>
-🖥️ WPF UI (Presentation Layer) → Kullanıcı arayüzü
-⚙️ Services Layer → İş mantığı
-🗄️ Repositories Layer → Veri erişimi (Stored Procedures)
-📦 Models Layer → Veri modelleri
+🖥️ WPF UI (Presentation Layer) → Kullanıcı arayüzü  <br/>
+⚙️ Services Layer → İş mantığı  <br/>
+🗄️ Repositories Layer → Veri erişimi (Stored Procedures)  <br/>
+📦 Models Layer → Veri modelleri  <br/>
+  <br/>
+Uygulama, aktif kullanıcı yönetimi, ürün takibi, ve kategori bazlı veri organizasyonu gibi işlevleri destekler.  <br/>
+  <br/>
+  <br/>
+  <br/>
+⚡ Kullanılan Teknolojiler  <br/>
+.NET 10 (Windows Desktop)  <br/>
+WPF (XAML)  <br/>
+SQL Server  <br/>
+Stored Procedures  <br/>
+C# (OOP & Layered Architecture)  <br/>
+  <br/>
+Clean Code  <br/>
+SOLID principles  <br/>
+Dependency separation  <br/>
+Maintainable codebase  <br/>
+  <br/>
+  <br/>
+  <br/>
+🔐 Özellikler  <br/>
+✔️ Aktif kullanıcı ile oturum yönetimi  <br/>
+✔️ Stored Procedure tabanlı güvenli veri erişimi  <br/>
+✔️ Katmanlı mimari (Clean Architecture yaklaşımı)  <br/>
+✔️ Modüler ve genişletilebilir yapı  <br/>
+✔️ Ürün & kategori yönetimi  <br/>
+✔️ Dinamik UI bileşenleri  <br/>
+  <br/>
+  <br/>
+🗄️ Veritabanı  <br/>
+  <br/>
+Proje, SQL Server üzerinde çalışmaktadır.  <br/>
+  <br/>
+Kurulum için:  <br/>
+  <br/>
+DatabaseScripts/init_database.sql dosyasını çalıştırın  <br/>
+Stored procedure'leri yükleyin  <br/>
+Connection string'i güncelleyin  <br/>
+  <br/>
+  <br/>
+⚙️ Kurulum  <br/>
+git clone https://github.com/yavuzclsknn/MyProject2.git  <br/>
+Visual Studio ile aç  <br/>
+Startup Project → MyProject2.Mutfak  <br/>
+SQL bağlantısını ayarla  <br/>
+Çalıştır 🚀  <br/>
+  <br/>
+  <br/>
+Gerçek dünya senaryosu bazlı geliştirilmiştir  <br/>
+Performans için stored procedure kullanımı  <br/>
+Kurumsal mimariye uygun yapı  <br/>
+   <br/>
+⭐ Katkı  <br/>
+  <br/>
+Projeyi beğendiysen ⭐ vermeyi unutma!  <br/>
+  <br/>
+  <br/>
 
-Uygulama, aktif kullanıcı yönetimi, ürün takibi, ve kategori bazlı veri organizasyonu gibi işlevleri destekler.
-
-
-
-⚡ Kullanılan Teknolojiler
-.NET 10 (Windows Desktop)
-WPF (XAML)
-SQL Server
-Stored Procedures
-C# (OOP & Layered Architecture)
-
-Clean Code
-SOLID principles
-Dependency separation
-Maintainable codebase
-
-
-
-🔐 Özellikler
-✔️ Aktif kullanıcı ile oturum yönetimi
-✔️ Stored Procedure tabanlı güvenli veri erişimi
-✔️ Katmanlı mimari (Clean Architecture yaklaşımı)
-✔️ Modüler ve genişletilebilir yapı
-✔️ Ürün & kategori yönetimi
-✔️ Dinamik UI bileşenleri
-
-
-🗄️ Veritabanı
-
-Proje, SQL Server üzerinde çalışmaktadır.
-
-Kurulum için:
-
-DatabaseScripts/init_database.sql dosyasını çalıştırın
-Stored procedure'leri yükleyin
-Connection string'i güncelleyin
-
-
-⚙️ Kurulum
-git clone https://github.com/yavuzclsknn/MyProject2.git
-Visual Studio ile aç
-Startup Project → MyProject2.Mutfak
-SQL bağlantısını ayarla
-Çalıştır 🚀
-
-
-Gerçek dünya senaryosu bazlı geliştirilmiştir
-Performans için stored procedure kullanımı
-Kurumsal mimariye uygun yapı
- 
-⭐ Katkı
-
-Projeyi beğendiysen ⭐ vermeyi unutma!
-
-
-
-## 📸 Proje Görselleri
+## 📸 Proje Görselleri  <br/>
 
 ### Windows Masaüstü Projesi Ekran Görüntüleri
 <p align="center">
