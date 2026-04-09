@@ -100,6 +100,9 @@ Projeyi beğendiysen ⭐ vermeyi unutma!  <br/>
   <img src="MyProject2.Admin/Images/Ekran_Alintisi_6.PNG" width="600"/>
 </p>
 <p align="center">
+  <img src="MyProject2.Admin/Images/Ekran_Alintisi_19.PNG" width="600"/>
+</p>
+<p align="center">
   <img src="MyProject2.Admin/Images/Ekran_Alintisi_8.PNG" width="600"/>
 </p>
 
