@@ -13,9 +13,7 @@ Bu proje, katmanlı mimari yaklaşımıyla geliştirilmiş olup aşağıdaki bil
 📦 Models Layer → Veri modelleri  <br/>
   <br/>
 Uygulama, aktif kullanıcı yönetimi, ürün takibi, ve kategori bazlı veri organizasyonu gibi işlevleri destekler.  <br/>
-  <br/>
-  <br/>
-  <br/>
+  <br/> 
 ⚡ Kullanılan Teknolojiler  <br/>
 .NET 10 (Windows Desktop)  <br/>
 WPF (XAML)  <br/>
@@ -28,8 +26,7 @@ SOLID principles  <br/>
 Dependency separation  <br/>
 Maintainable codebase  <br/>
   <br/>
-  <br/>
-  <br/>
+  <br/> 
 🔐 Özellikler  <br/>
 ✔️ Aktif kullanıcı ile oturum yönetimi  <br/>
 ✔️ Stored Procedure tabanlı güvenli veri erişimi  <br/>
@@ -37,8 +34,7 @@ Maintainable codebase  <br/>
 ✔️ Modüler ve genişletilebilir yapı  <br/>
 ✔️ Ürün & kategori yönetimi  <br/>
 ✔️ Dinamik UI bileşenleri  <br/>
-  <br/>
-  <br/>
+  <br/> 
 🗄️ Veritabanı  <br/>
   <br/>
 Proje, SQL Server üzerinde çalışmaktadır.  <br/>
