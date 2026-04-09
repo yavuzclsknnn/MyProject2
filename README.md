@@ -67,7 +67,7 @@ Uygulama içerisinde gerçekleşen önemli işlemler ve hatalar,
   
 <h2>🗄️ Veritabanı </h2> 
 Proje, SQL Server üzerinde çalışmaktadır.  <br/> 
-Kurulum için:  <br/>
+Kurulum için:  
   <br/>
 DatabaseScripts/init_database.sql dosyasını çalıştırın  <br/>
 Stored procedure'leri yükleyin  <br/>
