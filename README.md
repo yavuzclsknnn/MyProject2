@@ -56,8 +56,7 @@ Gerçek dünya senaryosu bazlı geliştirilmiştir  <br/>
 Performans için stored procedure kullanımı  <br/>
 Kurumsal mimariye uygun yapı  <br/>
    <br/>
-⭐ Katkı  <br/>
-  <br/>
+⭐ Katkı  <br/> 
 Projeyi beğendiysen ⭐ vermeyi unutma!  <br/>
   <br/>
   <br/>
