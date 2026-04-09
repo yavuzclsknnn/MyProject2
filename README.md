@@ -26,5 +26,15 @@ Bu proje WCF servis mimarisi kullanılarak geliştirilmiştir ve MSSQL Express v
 - Veritabanı dosyası repo içinde yoktur.
 - Güvenlik nedeniyle connection string sanitize edilmiştir.
 
+## 📸 Proje Görselleri
+
+### WCF Service Çalışıyor
+![Service](screenshots/Ekran_Alintisi_1.png)
+![Service](screenshots/Ekran_Alintisi_2.png)
+![Service](screenshots/Ekran_Alintisi_3.png)
+![Service](screenshots/Ekran_Alintisi_6.png)
+![Service](screenshots/Ekran_Alintisi_8.png)
+
+
 
 
