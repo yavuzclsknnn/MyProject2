@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ZXing.Net" Version="0.16.11" />
+    <PackageReference Include="ZXing.Net.Bindings.Windows.Compatibility" Version="0.16.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyProject2.Models\MyProject2.Models.csproj" />
+    <ProjectReference Include="..\MyProject2.Repositories\MyProject2.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>

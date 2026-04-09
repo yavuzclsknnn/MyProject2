@@ -1,0 +1,34 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build output
+bin/
+obj/
+Debug/
+Release/
+
+# Database files (ÇOK ÖNEMLİ - MSSQL Express için)
+*.mdf
+*.ldf
+*.ndf
+
+# NuGet
+packages/
+*.nupkg
+project.lock.json
+
+# Logs
+*.log
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Publish
+publish/
+
+# Windows
+Thumbs.db
+Desktop.ini

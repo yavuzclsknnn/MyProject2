@@ -1,0 +1,86 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- 🎨 RENKLER -->
+    <Color x:Key="PopupPage_PrimaryColor">#6C4DFF</Color>
+    <Color x:Key="PopupPage_SecondaryColor">#C850C0</Color>
+    <Color x:Key="PopupPage_BgColor">#F4F6F8</Color>
+
+    <SolidColorBrush x:Key="PopupPage_BgBrush"
+                     Color="{DynamicResource PopupPage_BgColor}"/>
+
+    <LinearGradientBrush x:Key="PopupPage_PrimaryGradient"
+                         StartPoint="0,0" EndPoint="1,0">
+        <GradientStop Color="{DynamicResource PopupPage_PrimaryColor}" Offset="0"/>
+        <GradientStop Color="{DynamicResource PopupPage_SecondaryColor}" Offset="1"/>
+    </LinearGradientBrush>
+
+
+    <!-- 🧱 CARD -->
+    <Style x:Key="PopupPage_CardStyle" TargetType="Border">
+        <Setter Property="CornerRadius" Value="18"/>
+        <Setter Property="Background" Value="White"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <!--<Setter Property="Padding" Value="20"/>-->
+        <Setter Property="Effect">
+            <Setter.Value>
+                <DropShadowEffect BlurRadius="25"
+                                  ShadowDepth="5"
+                                  Opacity="0.3"/>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+    <!-- 🔤 LABEL -->
+    <Style x:Key="PopupPage_LabelStyle" TargetType="TextBlock">
+        <Setter Property="FontSize" Value="13"/>
+        <Setter Property="Foreground" Value="#444"/>
+        <Setter Property="Margin" Value="20,15,4,16"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+    </Style>
+
+
+    <!-- 🧾 TEXTBOX -->
+    <Style x:Key="PopupPage_TextBoxStyle" TargetType="TextBox">
+        <Setter Property="Height" Value="38"/>
+        <Setter Property="Padding" Value="10"/>
+        <Setter Property="Margin" Value="0,0,0,10"/>
+        <Setter Property="Background" Value="#F8F8F8"/>
+        <Setter Property="BorderBrush" Value="#E0E0E0"/>
+        <Setter Property="BorderThickness" Value="1"/>
+
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="TextBox">
+                    <Border CornerRadius="8"
+                            Background="{TemplateBinding Background}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="{TemplateBinding BorderThickness}">
+                        <ScrollViewer x:Name="PART_ContentHost"/>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+
+        <Style.Triggers>
+            <Trigger Property="IsKeyboardFocused" Value="True">
+                <Setter Property="BorderBrush" Value="#6C4DFF"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+
+    <!-- 🔽 COMBOBOX -->
+    <Style x:Key="PopupPage_ComboBoxStyle" TargetType="ComboBox">
+        <Setter Property="Height" Value="38"/>
+        <Setter Property="Margin" Value="0,6,0,12"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Padding" Value="10,3"/>
+        <Setter Property="FontSize" Value="13"/>
+        <Setter Property="Foreground" Value="#444"/>
+    </Style>
+
+</ResourceDictionary>

@@ -1,0 +1,87 @@
+﻿<UserControl x:Class="MyProject2.Admin.Views.UCAnaSayfaFrm"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MyProject2.Admin.Views"
+             mc:Ignorable="d" 
+                          xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+             Height="700" Width="900">
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="180"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- ================= TOP CARDS ================= -->
+        <UniformGrid Columns="3" Grid.Row="0" Margin="20,30,40,20">
+            <!-- CARD 1 -->
+            <Border Style="{StaticResource CardStyle}" Margin="5">
+                <StackPanel>
+                    <TextBlock Text="ÜRÜNLER" HorizontalAlignment="Center" FontSize="15" Foreground="#FF7A00" FontWeight="Bold" Margin="0,10,0,0"/>
+                    <TextBlock Text="{Binding ToplamUrun}" FontSize="25" FontWeight="Bold" HorizontalAlignment="Center"/>
+                </StackPanel>
+            </Border>
+
+            <!-- CARD 2 -->
+            <Border Style="{StaticResource CardStyle}" Margin="5">
+                <StackPanel>
+                    <TextBlock Text="KULLANICI" HorizontalAlignment="Center" FontSize="15" Foreground="#28A745" FontWeight="Bold" Margin="0,10,0,0"/>
+                    <TextBlock Text="{Binding ToplamKullanici}" FontSize="25" FontWeight="Bold" HorizontalAlignment="Center"/>
+                </StackPanel>
+            </Border>
+
+            <!-- CARD 3 -->
+            <Border Style="{StaticResource CardStyle}" Margin="5">
+                <StackPanel>
+                    <TextBlock Text="KATEGORİ" HorizontalAlignment="Center" FontSize="15" Foreground="#DC3545" FontWeight="Bold" Margin="0,10,0,0"/>
+                    <TextBlock Text="{Binding ToplamKategori}" FontSize="25" FontWeight="Bold" HorizontalAlignment="Center"/>
+                </StackPanel>
+            </Border>
+        </UniformGrid>
+
+        <!-- ================= PIE CHARTS ================= -->
+        <UniformGrid Grid.Row="1" Columns="2" Margin="60,0,90,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <!-- CHART 1 -->
+            <Border Style="{StaticResource CardStyle}" Margin="10">
+                <StackPanel>
+                    <TextBlock Text="Ürün Dağılımı" FontWeight="Bold" FontSize="16" Margin="0,0,0,10"/>
+                    <Canvas x:Name="CanvasPie1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                        MinWidth="150" MinHeight="160"
+                        Loaded="CanvasPie_Loaded" SizeChanged="CanvasPie_SizeChanged"/>
+                </StackPanel>
+            </Border>
+
+            <!-- CHART 2 -->
+            <Border Style="{StaticResource CardStyle}" Margin="10">
+                <StackPanel>
+                    <TextBlock Text="Kullanıcı Dağılımı" FontWeight="Bold" FontSize="16" Margin="0,0,0,10"/>
+                    <Canvas x:Name="CanvasPie2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                     MinWidth="150" MinHeight="160"
+                     Loaded="CanvasPie_Loaded" SizeChanged="CanvasPie_SizeChanged"/>
+                </StackPanel>
+            </Border>
+
+            <!-- CHART 3 -->
+            <Border Style="{StaticResource CardStyle}" Margin="10">
+                <StackPanel>
+                    <TextBlock Text="Kategori Analizi" FontWeight="Bold" FontSize="16" Margin="0,0,0,10"/>
+                    <Canvas x:Name="CanvasPie3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                         MinWidth="150" MinHeight="160"
+                         Loaded="CanvasPie_Loaded" SizeChanged="CanvasPie_SizeChanged"/>
+                </StackPanel>
+            </Border>
+
+            <!-- CHART 4 -->
+            <Border Style="{StaticResource CardStyle}" Margin="10">
+                <StackPanel>
+                    <TextBlock Text="Genel Durum" FontWeight="Bold" FontSize="16" Margin="0,0,0,10"/>
+                    <Canvas x:Name="CanvasPie4" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                         MinWidth="150" MinHeight="160"
+                         Loaded="CanvasPie_Loaded" SizeChanged="CanvasPie_SizeChanged"/>
+                </StackPanel>
+            </Border>
+        </UniformGrid>
+    </Grid>
+</UserControl>

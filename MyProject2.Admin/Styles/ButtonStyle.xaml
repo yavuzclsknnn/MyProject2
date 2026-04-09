@@ -1,0 +1,248 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+
+
+
+    <LinearGradientBrush x:Key="PopupPage_PrimaryGradient" StartPoint="0,0" EndPoint="1,0">
+        <GradientStop Color="{DynamicResource PopupPage_PrimaryColor}" Offset="0"/>
+        <GradientStop Color="{DynamicResource PopupPage_SecondaryColor}" Offset="1"/>
+    </LinearGradientBrush>
+
+    <Style x:Key="addButton" TargetType="Button">
+        <Setter Property="Background" Value="#6741d9"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
+        <Setter Property="Width"  Value="90"/>
+        <Setter Property="Height" Value="35"/>
+        <Setter Property="HorizontalAlignment" Value="Right"/>
+        <Setter Property="VerticalAlignment" Value="Top"/>
+        <Setter Property="Margin" Value="10"/>
+        <Setter Property="FontSize" Value="13"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="{TemplateBinding Background}" CornerRadius="7">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True" >
+                <Setter Property="Background" Value="#7b5cd6"/>
+                <Setter Property="Foreground" Value="#ffffff"/>
+            </Trigger>
+        </Style.Triggers>
+
+    </Style>
+
+
+    <Style x:Key="addButton2" TargetType="Button">
+        <Setter Property="Background" Value="#6741d9"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="Width"  Value="150"/>
+        <Setter Property="Height" Value="35"/>
+        <Setter Property="Margin" Value="10 20 10 10"/>
+        <Setter Property="FontSize" Value="13"/>
+
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True" >
+                <Setter Property="Background" Value="#7b5cd6"/>
+                <Setter Property="Foreground" Value="#ffffff"/>
+            </Trigger>
+        </Style.Triggers>
+
+    </Style>
+
+
+
+
+    <!-- Ekle Butonu -->
+    <Style x:Key="addButton1" TargetType="Button">
+        <Setter Property="Background" Value="#6C5CE7"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="Padding" Value="8 4"/>
+        <Setter Property="Margin" Value="0"/>
+        <Setter Property="Cursor" Value="Hand"/>
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="{TemplateBinding Background}" 
+                                        CornerRadius="6">
+                        <ContentPresenter HorizontalAlignment="Center" 
+                                                      VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="Effect">
+            <Setter.Value>
+                <DropShadowEffect Color="Black" BlurRadius="5" ShadowDepth="1" Opacity="0.2"/>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="#5946C4"/>
+            </Trigger>
+            <Trigger Property="IsPressed" Value="True">
+                <Setter Property="Background" Value="#4535A0"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+    <!-- Sil Butonu -->
+    <Style x:Key="deleteButton" TargetType="Button" BasedOn="{StaticResource addButton}">
+        <Setter Property="Background" Value="#FF6B6B"/>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Background" Value="#FF4C4C"/>
+            </Trigger>
+            <Trigger Property="IsPressed" Value="True">
+                <Setter Property="Background" Value="#E63939"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+
+    <!--  PRIMARY BUTTON -->
+    <Style x:Key="PopupPage_PrimaryButtonStyle" TargetType="Button">
+        <Setter Property="Height" Value="40"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="Cursor" Value="Hand"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border CornerRadius="10">
+                        <Border.Background>
+                            <DynamicResource ResourceKey="PopupPage_PrimaryGradient"/>
+                        </Border.Background>
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Opacity" Value="0.85"/>
+                        </Trigger>
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter Property="Opacity" Value="0.75"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+    <!--  SECONDARY BUTTON -->
+    <Style x:Key="PopupPage_SecondaryButtonStyle" TargetType="Button">
+        <Setter Property="Height" Value="40"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="Background" Value="{StaticResource PopupPage_PrimaryGradient}"/>
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="Cursor" Value="Hand"/>
+
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border CornerRadius="10"
+                          Background="{TemplateBinding Background}">
+                        <ContentPresenter HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Opacity" Value="0.85"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+
+    <!--#endregion-->
+
+
+    <Style x:Key="CardStyle" TargetType="Border">
+        <Setter Property="Background" Value="White"/>
+        <Setter Property="CornerRadius" Value="10"/>
+        <Setter Property="Padding" Value="15"/>
+        <Setter Property="Margin" Value="10"/>
+    </Style>
+
+
+    <!-- Genel Top Button -->
+    <Style x:Key="WindowControlButton" TargetType="Button">
+        <Setter Property="Width" Value="40"/>
+        <Setter Property="Height" Value="30"/>
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="Foreground" Value="#444"/>
+        <Setter Property="Cursor" Value="Hand"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border x:Name="bd"
+                                      Background="{TemplateBinding Background}"
+                                      CornerRadius="6">
+                        <ContentPresenter HorizontalAlignment="Center"
+                                                    VerticalAlignment="Center"/>
+                    </Border>
+
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="bd" Property="Background" Value="#E6EAF2"/>
+                        </Trigger>
+
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter TargetName="bd" Property="Background" Value="#D6DBE5"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+
+    <!-- KAPAT BUTONU -->
+    <Style x:Key="CloseButtonStyle" TargetType="Button" BasedOn="{StaticResource WindowControlButton}">
+        <Setter Property="Foreground" Value="#444"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border x:Name="bd"
+                                      Background="Transparent"
+                                      CornerRadius="6">
+                        <ContentPresenter HorizontalAlignment="Center"
+                                                    VerticalAlignment="Center"/>
+                    </Border>
+
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="bd" Property="Background" Value="#E81123"/>
+                            <Setter Property="Foreground" Value="White"/>
+                        </Trigger>
+
+                        <Trigger Property="IsPressed" Value="True">
+                            <Setter TargetName="bd" Property="Background" Value="#C50F1F"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+
+
+
+
+</ResourceDictionary>

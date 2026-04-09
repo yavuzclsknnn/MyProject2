@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyProject2.Admin\MyProject2.Admin.csproj" />
+    <ProjectReference Include="..\MyProject2.Repositories\MyProject2.Repositories.csproj" />
+    <ProjectReference Include="..\MyProject2.Services\MyProject2.Services.csproj" />
+  </ItemGroup>
+
+</Project>

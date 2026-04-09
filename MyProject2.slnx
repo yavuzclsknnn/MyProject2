@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+  </Folder>
+  <Project Path="MyProject2.Admin/MyProject2.Admin.csproj" Id="80697e81-a8f1-4c11-9891-01276a997be8" />
+  <Project Path="MyProject2.Common/MyProject2.Common.csproj" Id="19c229aa-6462-44b5-8a74-197b1595d3b3" />
+  <Project Path="MyProject2.Models/MyProject2.Models.csproj" />
+  <Project Path="MyProject2.Mutfak/MyProject2.Mutfak.csproj" Id="0033e692-3b33-46b6-bbfa-8328a9c0de3f" />
+  <Project Path="MyProject2.Repositories/MyProject2.Repositories.csproj" />
+  <Project Path="MyProject2.Services/MyProject2.Services.csproj" />
+</Solution>

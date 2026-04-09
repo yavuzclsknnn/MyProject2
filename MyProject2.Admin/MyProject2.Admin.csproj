@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+	  <!-- 🔥 BURAYA EKLİYORSUN -->
+	  <Version>1.0.1</Version>
+	  <AssemblyVersion>1.0.1.0</AssemblyVersion>
+	  <FileVersion>1.0.1.0</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MahApps.Metro.IconPacks.Material" Version="6.2.1" />
+    <PackageReference Include="MaterialDesignThemes" Version="5.3.1" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="7.0.0" />
+  </ItemGroup> 
+
+	
+	<ItemGroup>
+    <ProjectReference Include="..\MyProject2.Common\MyProject2.Common.csproj" />
+    <ProjectReference Include="..\MyProject2.Models\MyProject2.Models.csproj" />
+    <ProjectReference Include="..\MyProject2.Services\MyProject2.Services.csproj" />
+  </ItemGroup>
+
+</Project>
