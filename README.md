@@ -32,6 +32,9 @@ Bu proje WCF servis mimarisi kullanılarak geliştirilmiştir ve MSSQL Express v
 <p align="center">
   <img src="Ekran_Alintisi_8.PNG" width="600"/>
 </p>
+<p align="center">
+  <img src="Ekran_Alintisi_1.PNG" width="600"/>
+</p>
 ![Service](Ekran_Alintisi_1.PNG)
 ![Service](Ekran_Alintisi_2.png)
 ![Service](Ekran_Alintisi_3.png)
