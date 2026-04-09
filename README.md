@@ -14,16 +14,17 @@ Bu proje, katmanlı mimari yaklaşımıyla geliştirilmiş olup aşağıdaki bil
   <br/>
 Uygulama, aktif kullanıcı yönetimi, ürün takibi, ve kategori bazlı veri organizasyonu gibi işlevleri destekler.  <br/>
   <br/> 
-⚡ Kullanılan Teknolojiler  <br/>
-.NET 10 (Windows Desktop)  <br/>
-WPF (XAML)  <br/>
-SQL Server  <br/>
-Stored Procedures  <br/>
-C# (OOP & Layered Architecture)  <br/>
+<h2>⚡ Kullanılan Teknolojiler  <br/></h2>
+<ul>
+<li>.NET 10 (Windows Desktop)</li>
+<li>WPF (XAML)  </li>
+<li>SQL Server  </li>
+<li>Stored Procedures </li>
+<li>C# (OOP & Layered Architecture) </li>
+</ul>  
   <br/>
 
-<h2>🧠 Teknik Detaylar</h2>
-
+<h2>🧠 Teknik Detaylar</h2> 
 <ul>
 <li>Katmanlı Mimari (Separation of Concerns)</li>
 <li>Stored Procedure tabanlı veri erişimi</li>
