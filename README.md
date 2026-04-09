@@ -57,7 +57,7 @@ Uygulama içerisinde gerçekleşen önemli işlemler ve hatalar,
 
 
   
-🔐 Özellikler  <br/>
+<h2>🔐 Özellikler </h2><br/>
 ✔️ Aktif kullanıcı ile oturum yönetimi  <br/>
 ✔️ Stored Procedure tabanlı güvenli veri erişimi  <br/>
 ✔️ Katmanlı mimari (Clean Architecture yaklaşımı)  <br/>
@@ -65,7 +65,7 @@ Uygulama içerisinde gerçekleşen önemli işlemler ve hatalar,
 ✔️ Ürün & kategori yönetimi  <br/>
 ✔️ Dinamik UI bileşenleri  <br/>
   <br/> 
-🗄️ Veritabanı  <br/> 
+<h2>🗄️ Veritabanı </h2> <br/> 
 Proje, SQL Server üzerinde çalışmaktadır.  <br/> 
 Kurulum için:  <br/>
   <br/>
@@ -74,7 +74,7 @@ Stored procedure'leri yükleyin  <br/>
 Connection string'i güncelleyin  <br/>
   <br/>
   <br/>
-⚙️ Kurulum  <br/>
+<h2>⚙️ Kurulum </h2>  <br/>
 git clone https://github.com/yavuzclsknn/MyProject2.git  <br/>
 Visual Studio ile aç  <br/>
 Startup Project → MyProject2.Mutfak  <br/>
