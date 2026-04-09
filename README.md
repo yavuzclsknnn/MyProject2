@@ -25,3 +25,6 @@ Bu proje WCF servis mimarisi kullanılarak geliştirilmiştir ve MSSQL Express v
 ## Notlar
 - Veritabanı dosyası repo içinde yoktur.
 - Güvenlik nedeniyle connection string sanitize edilmiştir.
+
+
+
