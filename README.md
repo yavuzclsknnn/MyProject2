@@ -76,6 +76,12 @@ SQL bağlantısını ayarla  <br/>
 Gerçek dünya senaryosu bazlı geliştirilmiştir  <br/>
 Performans için stored procedure kullanımı  <br/>
 Kurumsal mimariye uygun yapı  <br/>
+
+## 📬 İletişim
+
+Bu proje, yazılım mimarisi ve backend geliştirme konularında yetkinliğimi göstermek amacıyla hazırlanmıştır.
+Yeni projeler, iş birlikleri veya teknik görüşmeler için benimle iletişime geçebilirsiniz.
+
    <br/>
 ⭐ Katkı  <br/> 
 Projeyi beğendiysen ⭐ vermeyi unutma!  <br/>
